@@ -8,32 +8,29 @@ class character():
         self.gender = gender
         self.power = power
     
-class powers(): # basic overviewing class
+class Powers(): # basic overviewing class
     def __init__(info, name, damage, element):
         info.name = name
         info.damage = damage
-        element = element
+        info.element = element
 
-class nature(powers): 
+class nature(Powers): 
+    def  __init__(info, name, damage, t):
+        super.__init__(name, damage)
+        info.t = t
+    def __str__(info):
+        return f"{info.name},{info.damage},{info.t}"
+
+class fire(powers):
     def __init__(info, name, damage, t):
         info.name = name
         info.damage = damage
         info.t = t
     def __str__(info):
-        return f"{info.name},{info.damage},{info.gender},{info.color}"
-
-class fire(powers):
-    def __init__(info, name, origin, gender, color, t):
-        info.name = name
-        info.origin = origin
-        info.gender = gender
-        info.color = color
-        info.t = t
-    def __str__(info):
-        return f"{info.name},{info.origin},{info.gender},{info.color},{info.type}"
+        return f"{info.name},{info.damage},{info.t}"
 
 class water(powers):
-    def __init__(info, name, origin, gender, color, t):
+    def __init__(info, name, damage, t):
         info.name = name
         info.origin = origin
         info.gender = gender
