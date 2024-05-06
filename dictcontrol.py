@@ -1,2 +1,5 @@
 class hero(name):
-    name = input("bloom: ")
+    def__init__(name, )
+   
+info.name
+        name = input("bloom: ")
