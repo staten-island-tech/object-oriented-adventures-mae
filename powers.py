@@ -13,7 +13,7 @@ music = powers("Deafening Speakers", 100)
 # Agnes['power'] = water.__dict__()       MR. WHALEN'S EXAMPLE
 def choosing_power(character):
     print("> Now that you just recieved that blow like a stupid dummy. Attack back.")
-    x = input("> Which element would you like to utilize? (n/f/w/l/m): ").lower()
+    x = input(f"> Which element would you like to utilize? (n/f/w/l/m): ").lower()
     if x == "n":
         character['power'] = nature.__dict__() #adds the power you choose to your dictionary as a character.
     elif x == "f":
@@ -24,8 +24,4 @@ def choosing_power(character):
         character['power'] = light.__dict__()
     elif x == "m":
         character['power'] = music-__dict__()
-
-print(f"> You used {character['power'].power}! You took {character['power'].damage} off of Icy. {300 - character['power'].damage}.Congrats, newbie. WAIT. Don't celebrate yet... Watch out, she's coming for you.") #for when you use the power against the trix
-
-input(f"here it is
-      type play: ")
+    print(f"> You used {character['power'].power}! You took {character['power'].damage} off of Icy. {300 - character['power'].damage}.Congrats, newbie. WAIT. Don't celebrate yet... Watch out, she's coming for you.") #for when you use the power against the trix
