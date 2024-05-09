@@ -6,9 +6,22 @@ class character():
 
     def display_info(self):
         print(f"Name: {self.name}")
-        print(f"Age: {self.gender}")
-        print(f"Class: {self.char_class}")
+        print(f"Age: {self.age}")
+        print(f"Gender: {self.gender}")
+        print(f"Element: {self.element}")
+        
+    def create_character():
+        name = input("Enter character name: ")
+        age = int(input("Enter character age: "))
+        gender = input("Enter characters gender: ")
+        element = input("Choose characters element (fire, water, earth, air): ")
+        return Character(name, age, gender, element)
 
-    def create_characters
+    def main():
+        print("Welcome to Character Creation!")
+        character = create_character()
+        character.display_info()
+
+    create_chracater().display_info(
 
         
