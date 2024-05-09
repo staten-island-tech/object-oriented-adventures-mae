@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # title: mr whalen's adventure world; planning stage
 
 # characters: self
@@ -44,5 +45,9 @@ print("You have encountered Darcy, one of the infamous trix sisters. She uses he
 ```
 
 
+=======
+# TITLE: mr whalens adventure world 
+# characters: 
+>>>>>>> 1a996b9ff0be49bc97ca48329083f66e2cd70974
 object-oriented-adventures-mae created by GitHub Classroom
 
