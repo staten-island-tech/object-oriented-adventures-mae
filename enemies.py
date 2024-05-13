@@ -1,4 +1,5 @@
 class trix():
+<<<<<<< HEAD
     def __init__(self, name, power, damage):
         self.name = name 
         self.power = power
@@ -6,10 +7,13 @@ class trix():
 darcy=trix("Darcy","Darkness",100)
 stormy=trix("Stormy","Hurricane Sandy",100)
 icy=trix("Icy","Flurry Fury",100)
+=======
+    def __init__(self,name, power, damage):
+        self.name = name 
+        self.power = power
+        self.damage = damage 
+>>>>>>> 78a42641e9dff532ccb8489ad644b984a52d676f
 
-def attack(user,trix):
-    x = user.health-trix.damage
-    return x 
 
 class encounters():
     
@@ -29,4 +33,3 @@ class encounters():
         if w == ("attack"):
             print("NO FLIPPING WAY, YOU WON SOMEHOW. Your attack blinded icy and gave her ptsd. dont ask questions :)")
 
-encounters.one()
