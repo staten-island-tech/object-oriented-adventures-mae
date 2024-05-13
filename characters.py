@@ -15,11 +15,11 @@ class character():
         name = input("Enter character name: ")
         age = int(input("Enter character age: "))
         gender = input("Enter characters gender: ")
-        element = input("Choose characters element (fire, water, earth, air): ")
-        return character(name, age, gender, element)
+        # element = input("Choose characters element (fire, water, earth, air): ")
+        return character(name, age, gender)
 
-    User = create_character()
-    print(User.display_info())
+
+   
 
 
         
