@@ -17,7 +17,6 @@ def choosing_power(character):
     x = input(f"> Which element would you like to utilize for this game? (n/f/w/l/m): ").lower()
     if x == "n":
         return nature.__dict__ #adds the power you choose to your dictionary as a character.
-         
     elif x == "f":
         character['power'] = fire.__dict__
     elif x == "w":
@@ -26,4 +25,5 @@ def choosing_power(character):
         character['power'] = light.__dict__
     elif x == "m":
         character['power'] = music-__dict__
-    print(f"> You used {character['power'].power}! You took {character['power'].damage} off of Icy. {300 - character['power'].damage}.Congrats, newbie. WAIT. Don't celebrate yet... Watch out, she's coming for you.") #for when you use the power against the trix
+        
+print(f"> You used {character['power'].power}! You took {character['power'].damage} off of Icy. {300 - character['power'].damage}.Congrats, newbie. WAIT. Don't celebrate yet... Watch out, she's coming for you.") #for when you use the power against the trix
