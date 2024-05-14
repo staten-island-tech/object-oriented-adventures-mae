@@ -1,9 +1,10 @@
+from powers import *
 class character():
     def __init__(self, name,age, gender, element):
         self.name = name
         self.gender = gender
         self.age =age
-        self.element = element
+        self.element = {}
 
     def display_info(self):
         print(f"Name: {self.name}")
@@ -12,11 +13,11 @@ class character():
         print(f"Element: {self.element}")
     
     def create_character():
-        name = input("Enter character name: ")
+        name = input("Enter character name: ").title()
         age = int(input("Enter character age: "))
-        gender = input("Enter characters gender: ")
-        # element = input("Choose characters element (fire, water, earth, air): ")
-        return character(name, age, gender)
+        gender = input("Enter characters gender (f/m): ").lower()
+        element = choosing_power(character)
+        return character(name, age, gender, element)
 
 
    

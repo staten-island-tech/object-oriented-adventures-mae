@@ -6,7 +6,7 @@ q = input("> Check if this information is correct. (y/n) ").lower()
 if q == "y":
     print("Alright then. Let's continue and toss you in there.")
 elif q == "n":
-    print("Oh, you're dumb. I think you're the one that messed up not me. FIX IT.")
+    print("ME? It's not my fault. I think - no, I KNOW you're the one that messed up not me. FIX IT.")
     character.create_character()
 from powers import *
 choosing_power(character)
