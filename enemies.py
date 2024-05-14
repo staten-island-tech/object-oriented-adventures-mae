@@ -1,12 +1,15 @@
+from powers import *
 class trix():
-    def __init__(self,name, power, damage):
+    def __init__(self, name, power, damage):
         self.name = name 
         self.power = power
         self.damage = damage 
+darcy=trix("Darcy","Darkness",100)
+stormy=trix("Stormy","Hurricane Sandy",100)
+icy=trix("Icy","Flurry Fury",100)
 
 
-class encounters():
-    
+class encounters():   
     def one():
         print("You have encountered Darcy, one of the infamous trix sisters. She uses her power, Darkness, against you. YOU JUST LOST 100 HEALTH POINTS! GET WRECKED.")
         print("Your health is at 400")
@@ -22,4 +25,3 @@ class encounters():
         w = input("Input attack to fire: ").lower()
         if w == ("attack"):
             print("NO FLIPPING WAY, YOU WON SOMEHOW. Your attack blinded icy and gave her ptsd. dont ask questions :)")
-
