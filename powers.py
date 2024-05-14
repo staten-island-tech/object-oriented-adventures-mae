@@ -16,8 +16,7 @@ music = powers("Deafening Speakers", 100)
 def choosing_power(character):
     x = input(f"> Which element would you like to utilize for this game? (n/f/w/l/m): ").lower()
     if x == "n":
-        return nature.__dict__ #adds the power you choose to your dictionary as a character.
-         
+        return nature.__dict__ #adds the power you choose to your dictionary as a character.       
     elif x == "f":
         character['power'] = fire.__dict__
     elif x == "w":
