@@ -18,12 +18,12 @@ def choosing_power(character):
     if x == "n":
         return nature.__dict__ #adds the power you choose to your dictionary as a character.
     elif x == "f":
-        character['power'] = fire.__dict__
+        return fire.__dict__
     elif x == "w":
-        character['power'] = water.__dict__
+        return water.__dict__
     elif x == "l":
-        character['power'] = light.__dict__
+        return light.__dict__
     elif x == "m":
-        character['power'] = music-__dict__
+        return music.__dict__
         
-print(f"> You used {character['power'].power}! You took {character['power'].damage} off of Icy. {300 - character['power'].damage}.Congrats, newbie. WAIT. Don't celebrate yet... Watch out, she's coming for you.") #for when you use the power against the trix
+#print(f"> You used {character['power'].power}! You took {character['power'].damage} off of Icy. {300 - character['power'].damage}.Congrats, newbie. WAIT. Don't celebrate yet... Watch out, she's coming for you.") #for when you use the power against the trix

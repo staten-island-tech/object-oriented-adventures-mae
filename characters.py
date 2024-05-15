@@ -13,9 +13,9 @@ class character():
         print(f"Element: {self.element}")
     
     def create_character():
-        name = input("Enter character name: ").title()
-        age = int(input("Enter character age: "))
-        gender = input("Enter characters gender (f/m): ").lower()
+        name = input("- Enter character name: ").title()
+        age = int(input("- Enter character age: "))
+        gender = input("- Enter characters gender (f/m): ").lower()
         element = choosing_power(character)
         return character(name, age, gender, element)
 
