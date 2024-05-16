@@ -24,10 +24,6 @@ def choosing_power(character):
     elif x == "l":
         return light.__dict__
     elif x == "m":
-<<<<<<< HEAD
         return music.__dict__
-=======
-        character['power'] = music.__dict__
->>>>>>> 3e82b7a318b7f73be3bb7ee5fd7383f32cc8055a
         
 #print(f"> You used {character['power'].power}! You took {character['power'].damage} off of Icy. {300 - character['power'].damage}.Congrats, newbie. WAIT. Don't celebrate yet... Watch out, she's coming for you.") #for when you use the power against the trix
