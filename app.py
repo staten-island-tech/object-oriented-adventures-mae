@@ -15,3 +15,4 @@ elif q == "n":
 #entering world
 print("> Hey. You awake? You hit your head pretty hard when I tossed you. I really don't care. Anyway...")
 print("> You see that road. No? Imagine it. Uh, follow it and try to use that new power of yours.")
+print("> Ever heard of the trix? Three girls, awful style - no? me neither. They really wanna kill you. Have FUN!!")
