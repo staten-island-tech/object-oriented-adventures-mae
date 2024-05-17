@@ -1,0 +1,8 @@
+[
+    {"element": "nature", "power": "Deforestation", "damage": 100},
+    {"element": "fire", "power": "Volcano Boom", "damage": 125},
+    {"element": "water", "power": "Hurricane-y Spin-y", "damage": 100},
+    {"element": "light", "power": "Sun Burnt Oven", "damage": 125},
+    {"element": "music", "power": "Deafening Speakers", "damage": 100}
+
+]

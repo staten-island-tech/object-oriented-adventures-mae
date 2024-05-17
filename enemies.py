@@ -21,7 +21,7 @@ class encounters():
     def three():
         y = input("> Congrats on getting this far! TIME FOR BOSS LEVEL, HERE COMES ICY. Fire first by inputing fire: ").lower()
         if y == ("fire"):
-            print(f"{500 - character['power'].damage} is icy's health. She fired back at you but she missed! Lucky you...:/ I guess it's your turn again.@#%$#!@")
+            print(f"{500 - user.damage} is icy's health. She fired back at you but she missed! Lucky you...:/ I guess it's your turn again.@#%$#!@")
         w = input("> Input attack to fire: ").lower()
         if w == ("attack"):
             print("> NO FLIPPING WAY, YOU WON SOMEHOW. Your attack blinded icy and gave her ptsd. dont ask questions :)")
