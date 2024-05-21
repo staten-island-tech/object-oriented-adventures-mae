@@ -18,13 +18,18 @@ print("> Hey. You awake? You hit your head pretty hard when I tossed you. I real
 print("> You see that road. No? Imagine it. Uh, follow it and try to use that new power of yours.")
 print("> Ever heard of the trix? Three girls, awful style - no? me neither. They really wanna kill you. Have FUN!!")
 encounters.one()
-a = input(f"> You used {user.power}! You took {user.damage} off of Darcy. {300 - user.damage}.Congrats, newbie. WAIT. Don't celebrate yet... Watch out, there's more coming for you. Are you sure you want to continue? Your life depends on it... (y/n): ").lower()
+a = input(f"> You used {user.power}! You took {user.damage} off of Darcy. {300 - user.damage}.Congrats, newbie. WAIT. Don't celebrate yet... Did you know you had a super attack? Oh wait, of course not you dimwit...Do you want to use it? ¯\_( ͡❛ ͜ʖ ͡❛)_/¯ (y/n) ").lower()
 if a == "y":
-    print("> Ok, if you say so...")
+    print("> YOU KILLED HER, like a bosssssss. Watch out, they're coming for you. Are you sure you want to move on, your life depends on it...")
 elif a == "n":
+    print("> HAHA you just lost ")
+c = input("> Do you want to continue (y/n): ")
+if c == "y":
+    print("> Ok, if you say so...")
+elif c == "n":
     print("> BRUHHHH, BOY BYE")
 encounters.two()
-b = input(f"> You used {user.power}! You took {user.damage} off of Stormy. {300 - user.damage}. Almost there buddy boy, do you wish to continue? (y/n): ").lower()
+b = input(f"> You used {user.power}! You took {user.damage} off of Stormy. {300 - user.damage}. Looks like you got lucky, since her ego is so big. She ran away crying so I guess you won this one too. Almost there buddy boy, do you wish to continue? (y/n): ").lower()
 if b == "y":
     print("> THATS WHAT IM TALKING ABOUT")
 if b == "n":
