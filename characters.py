@@ -1,10 +1,10 @@
 from powers import *
 class character():
-    def __init__(self, name,age, gender, element):
+    def __init__(self, name, age, gender, element):
         self.name = name
         self.gender = gender
-        self.age =age
-        self.element = {}
+        self.age = age
+        self.element = element
 
     def display_info(self):
         print(f"Name: {self.name}")
