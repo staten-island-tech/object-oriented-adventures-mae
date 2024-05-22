@@ -1,4 +1,9 @@
+<<<<<<< HEAD
+
+
+=======
 from powers import *
+>>>>>>> 5ccc45f63fed1651389543afa9c43b4158d925dc
 class trix():
     def __init__(self, name, power, damage):
         self.name = name 
@@ -24,4 +29,9 @@ class encounters():
             print(f"{500 - user.damage} is icy's health. She fired back at you but she missed! Lucky you...:/ I guess it's your turn again.@#%$#!@")
         w = input("> Input attack to fire: ").lower()
         if w == ("attack"):
+<<<<<<< HEAD
+            print("NO FLIPPING WAY, YOU WON SOMEHOW. Your attack blinded icy and gave her ptds. dont ask questions :)")
+
+=======
             print("> NO FLIPPING WAY, YOU WON SOMEHOW. Your attack blinded icy and gave her ptsd. dont ask questions :)")
+>>>>>>> 5ccc45f63fed1651389543afa9c43b4158d925dc
