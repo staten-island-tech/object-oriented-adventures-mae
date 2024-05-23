@@ -1,5 +1,5 @@
 from characters import *
-from powers import *
+from powers import * 
 from enemies import *
 
 
@@ -21,7 +21,7 @@ print("> Hey. You awake? You hit your head pretty hard when I tossed you. I real
 print("> You see that road. No? Imagine it. Uh, follow it and try to use that new power of yours.")
 print("> Ever heard of the trix? Three girls, awful style - no? me neither. They really wanna kill you. Have FUN!!")
 encounters.one()
-a = input(f'> You used {user.element['power']}! You took {user.element['damage']} off of Darcy. {300 - user.element['damage']}.Congrats, newbie. WAIT. Don\'t celebrate yet... Watch out, there\'s more coming for you. Are you sure you want to continue? Your life depends on it... (y/n): ').lower()
+a = input(f"> You used {user.element['power']}! You took {user.element['damage']} off of Darcy. {300 - user.element['damage']}.Congrats, newbie. WAIT. Don\'t celebrate yet... Watch out, there\'s more coming for you. Are you sure you want to continue? Your life depends on it... (y/n): ").lower()
 if a == "y":
     print("> YOU KILLED HER, like a bosssssss. Watch out, they're coming for you. Are you sure you want to move on, your life depends on it...")
 elif a == "n":
@@ -32,7 +32,7 @@ if c == "y":
 elif c == "n":
     print("> BRUHHHH, BOY BYE")
 encounters.two()
-b = input(f'> You used {user.element['power']}! You took {user.element['damage']} off of Stormy. {300 - user.element['damage']}. Almost there buddy boy, do you wish to continue? (y/n): ').lower()
+b = input(f"> You used {user.element['power']}! You took {user.element['damage']} off of Stormy. {300 - user.element['damage']}. Her ego is so big she ran away crying. Almost there buddy boy, do you wish to continue? (y/n): ").lower()
 if b == "y":
     print("> THATS WHAT IM TALKING ABOUT")
 if b == "n":
