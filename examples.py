@@ -7,3 +7,4 @@ from enemies import trix, encounters
 # icy=trix("Icy","Flurry Fury",100)
 # print(t.name)
 
+print("poop").type()
