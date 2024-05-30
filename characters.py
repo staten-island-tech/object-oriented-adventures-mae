@@ -19,9 +19,7 @@ class character():
         element = choosing_power(character)
         return character(name, age, gender, element)
 
+""" 
+user = character("agnes", 45,'f', {"element": "music", "power": "Deafening Speakers", "damage": 100})  """
 
-user = character("agnes", 45,'f', {"element": "music", "power": "Deafening Speakers", "damage": 100}) 
 
-
-
-a = input(f"> You used {user.element['power'] }! ").lower()
