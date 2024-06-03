@@ -22,21 +22,13 @@ time.sleep(3)
 print("> Ever heard of the trix? Three girls, awful style - no? me neither. They really wanna kill you. Have FUN!!")
 time.sleep(3)
 encounters.one()
-<<<<<<< HEAD
-a = input(f"> You used {user.element['power']}! You took {user.element['damage']} off of Darcy. {300 - user.element['damage']}.Congrats, newbie. WAIT. Don't celebrate yet... Watch out, there's more coming for you. Are you sure you want to continue? Your life depends on it... (y/n): ").lower()
-=======
 a = input(f"> You used {user.element['power']}! You took {user.element['damage']} off of Darcy. {300 - user.element['damage']}.Congrats, newbie. WAIT. Don\'t celebrate yet... Watch out, there\'s more coming for you. Are you sure you want to continue? Your life depends on it... (y/n): ").lower()
->>>>>>> 4069eebd148f3b8eb4010d21960da9cc8e1dfbb5
 if a == "y":
     print("> Ok, if you say so...")
 elif a == "n":
     print("> BRUHHHH, BOY BYE")
 encounters.two()
-<<<<<<< HEAD
-b = input(f"> You used {user.element['power']}! You took {user.element['damage']} off of Stormy. {300 - user.element['damage']}. Almost there buddy boy, do you wish to continue? (y/n): ").lower()
-=======
 b = input(f"> You used {user.element['power']}! You took {user.element['damage']} off of Stormy. {300 - user.element['damage']}. Her ego is so big she ran away crying. Almost there buddy boy, do you wish to continue? (y/n): ").lower()
->>>>>>> 4069eebd148f3b8eb4010d21960da9cc8e1dfbb5
 if b == "y":
     print("> THATS WHAT IM TALKING ABOUT")
 if b == "n":
