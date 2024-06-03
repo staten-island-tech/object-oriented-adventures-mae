@@ -14,12 +14,7 @@ class character():
         
         
 
-<<<<<<< HEAD
 
 # user = character("agnes", 45,'f', {"element": "music", "power": "Deafening Speakers", "damage": 100}) 
-=======
-""" 
-user = character("agnes", 45,'f', {"element": "music", "power": "Deafening Speakers", "damage": 100})  """
->>>>>>> 4069eebd148f3b8eb4010d21960da9cc8e1dfbb5
 
 
