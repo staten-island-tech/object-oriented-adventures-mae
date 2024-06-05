@@ -1,14 +1,16 @@
 from characters import *
 from powers import *
 from enemies import *
+from test import *
 import time
 print("> Hello. Welcome to Mr. Whalen's Adventure World.")
 time.sleep(2)
 print("> It is literally the best thing in the world. You are going to enter this weird world and fight three bratty women. Easiest, quickest game, yea...")
+peepaw.create()
 time.sleep(1)
 print("> Im Mr. Baldie: Mr Whalen's Butler. Wait..uhh...who are you?")
 time.sleep(1)
-#making character-------------------------------------------------------------
+#making character------------------------------------------------------------
 user = character()
 q = input("> Check if the information you above is correct. (y/n): ").lower()
 if q == "y":
@@ -23,16 +25,18 @@ else:
     
 #entering world-------------------------------------------------------------
 print("> Hey. You awake? You hit your head pretty hard when I tossed you. I really don't care. Anyway...")
-print("> You see that road. No? Imagine it. Uh, follow it and try to use that new power of yours.")
-print("> Ever heard of the trix? Three girls, awful style - no? me neither. They really wanna kill you. Have FUN!!")
 time.sleep(3)
-#-------------------------------------------------------------
+print("> You see that road. No? Imagine it. Uh, follow it and try to use that new power of yours.")
+time.sleep(3)
+print("> Ever heard of the trix? Three girls, awful style - no? me neither. They really wanna kill you. Have FUN!!")
+trix.create("self")
+time.sleep(3)
+#---------------------------------------------------------------------------
 encounters.one()
+darcy.create("self")
 print(f"> You used {user.element['power']}! You took {user.element['damage']} off of Darcy. She went poof but dont worry she was the weakest and easiest one. congrats, newbie.")
 time.sleep(1)
 a = input(f"> WAIT. Don't celebrate yet... Watch out, there's more coming for you. Are you sure you want to continue? Your life depends on it... (y/n): ").lower()
-encounters.one()
-a = input(f"> You used {user.element['power']}! You took {user.element['damage']} off of Darcy. {300 - user.element['damage']}.Congrats, newbie. WAIT. Don\'t celebrate yet... Watch out, there\'s more coming for you. Are you sure you want to continue? Your life depends on it... (y/n): ").lower()
 if a == "y":
     print("> Ok, if you say so...")
 elif a == "n":
@@ -40,9 +44,10 @@ elif a == "n":
 else:
     print("- here we go again. just read it says y/n pick one.")
     time.sleep(1)
-    input("> Do you want to continue? (y/n): ")
-#-------------------------------------------------------------
+    a = input("> Do you want to continue? (y/n): ")
+#--------------------------------------------------------------------------
 encounters.two()
+stormy.create("self")
 print(f"> You used {user.element['power']}! You took {user.element['damage']} off of Stormy. {300 - user.element['damage']}.")
 time.sleep(1)
 b = input(f"> Almost there buddy boy, do you wish to continue? (y/n): ").lower()
@@ -54,8 +59,9 @@ else:
     print("- OH MY GOD. SHUT UP RIGHT NOW. JUST $%#! READ. cmon we are half way through your trip and you learned nothing.")
     time.sleep(1)
     input("> do you wish to continue? (y/n): ")
-#-------------------------------------------------------------
+#--------------------------------------------------------------------------
 encounters.three()
+icy.create("self")
 time.sleep(1)
 print("> Okay. Now that you miraculously beat the %#$! out of Icy. You're kinda done.") 
 time.sleep(1)
@@ -70,3 +76,4 @@ else:
 
 
 
+#ask whalen about the trix.create(self) thing

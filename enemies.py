@@ -23,7 +23,7 @@ class encounters():
         time.sleep(3)
         print("> Good job! Let's continue on out journey. This is round two...OH NO!!! ITS THE FRIGHTENING STORMY ;-;.")
         time.sleep(3)
-        print("She used her power, Hurricane Sandy, against you. YOU LOST 100 HEALTH POINTS!")
+        print("> She used her power, Hurricane Sandy, against you. YOU LOST 100 HEALTH POINTS!")
         time.sleep(3)
         print("> Your health is at 300. What are you gonna do about it?")
 
