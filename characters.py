@@ -12,7 +12,7 @@ class character():
         print(f"Gender: {self.gender}")
         print(f"Element: {self.element}")
         
-        
+   
 
 
 # user = character("agnes", 45,'f', {"element": "music", "power": "Deafening Speakers", "damage": 100}) 

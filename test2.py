@@ -1,3 +1,3 @@
 from test import *
 
-peepaw.create("self")
+trix.create("self")
