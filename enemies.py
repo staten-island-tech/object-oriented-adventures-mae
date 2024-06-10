@@ -32,6 +32,14 @@ class encounters():
         if y == ("fire"):
             print("> You hit her. GOALLL! She fired back at you but she missed! Lucky you...:/ I guess it's your turn again.@#%$#!@")
             time.sleep(1)
+        else:
+            print("I said fire not whatever you just typed in. try again, one more chance bud.")
+            time.sleep(3)
+            y = input("- input fire: ").lower()
         w = input("> Input attack to fire: ").lower()
         if w == ("attack"):
             print("> NO FLIPPING WAY, YOU WON SOMEHOW. Your attack blinded icy and gave her ptsd. dont ask questions :)")
+        else:
+            print("> I said attack not whatever you just typed in. try again, LAST chance bud.")
+            time.sleep(3)
+            w = input("- input attack: ").lower()

@@ -6,7 +6,7 @@ class peepaw:
         self.title = title
     def create(self):   
         screen = turtle.Screen()
-        screen.register_shape("peepaw-grandpa-fairy.gif")
+        screen.register_shape(self.image)
         screen.addshape("peepaw-grandpa-fairy.gif")
         turtle.shape("peepaw-grandpa-fairy.gif")
         turtle.mainloop()
@@ -30,15 +30,25 @@ class icy:
         screen.addshape("icy.webp")
         turtle.shape("icy.webp")
         turtle.mainloop()
-class icy:
+class stormy:
     def __init__(self, image, title):
         self.image = image
         self.title = title
     def create(self):   
         screen = turtle.Screen()
-        screen.register_shape("icy.webp")
-        screen.addshape("icy.webp")
-        turtle.shape("icy.webp")
+        screen.register_shape("gloomix-stormy.gif")
+        screen.addshape("gloomix-stormy.gif")
+        turtle.shape("gloomix-stormy.gif")
+        turtle.mainloop()
+class darcy:
+    def __init__(self, image, title):
+        self.image = image
+        self.title = title
+    def create(self):   
+        screen = turtle.Screen()
+        screen.register_shape("darcy.gif")
+        screen.addshape("darcy.gif")
+        turtle.shape("darcy.gif")
         turtle.mainloop()
 
 
